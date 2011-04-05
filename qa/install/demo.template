@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survey actionurl="http://{@URL}/process.cfm" bgn="01/01/2050" end="01/01/2060" moddate="10/12/2009" private="false" pwd="test" ttl="Demo Survey" url="http://www.mydomain.com/examples/myform.cfm">
+	<dsc><![CDATA[This is a demo that comes with the survey manager.]]></dsc>
+	<alrt><![CDATA[{@EML}]]></alrt>
+	<acl><usr>{@EML}</usr></acl>
+	<qa>
+		<q format="single" id="4B0DB0B73FFAF2B209761CC8CEB3835F" required="false" text="What is your name?" type="text"/>
+		<q format="multi" id="4B0DB0CB3FFAF2B20C696225D4620629" required="false" text="What is your quest?" type="text"/>
+		<q default="true" format="tf" id="4B0DB0D53FFAF2B20E484B82D26BB60F" required="false" text="African Swallows are faster than other Swallows" type="boolean"/>
+		<q default="true" format="yn" id="4B0DB0DF3FFAF2B20488ED43D886F23E" required="false" text="I'm a lumberjack and I'm OK." type="boolean"/>
+		<q from="1" id="4B0DB0E93FFAF2B20E6DBD7AA6398822" increment="1" required="false" text="On a scale from 5-1, just how backwards is the ministry of silly walks?" to="5" type="rate"/>
+		<q id="4B0DB0F33FFAF2B20E244FAB21BBE4CE" required="false" text="When will you be dining with us?" type="date"/>
+		<q format="single" id="4B0DB0FD3FFAF2B200CC5649C7895F60" required="false" text="Will you have an after dinner mint?" type="select">
+			<a display="false" value="false"/>
+			<a display="Absolutely Not!" value="false"/>
+			<a display="Only if it's wafer thin!" value="true"/>
+		</q>
+		<q format="multi" id="4B0DB1073FFAF2B20D551B2833A786EA" required="false" text="What are your favorite movies?" type="select">
+			<a display="The Holy Grail" value=""/>
+			<a display="The Life of Brian" value=""/>
+			<a display="The Meaning of Life" value=""/>
+			<a display="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> &lt;display> &lt;display>Other&lt;/display>&lt;/display>" format="text"/>
+		</q>
+		<q format="single" id="4B0DB1113FFAF2B20A73251D1628C28B" required="false" text="Let us know what you think about classic movies." type="matrix">
+			<columns>
+				<c name="The Meaning of Life"/>
+				<c name="The Life of Brian"/>
+				<c name="The Holy Grail"/>
+				<c name="The History of the World (Part I)"/>
+			</columns>
+			<options>
+				<a display="Funny" value="1"/>
+				<a display="Hilarious" value="2"/>
+				<a display="Side-Splitting" value="3"/>
+			</options>
+		</q>
+		<q format="multi" id="4B0DB11B3FFAF2B20C1E9C0439727CD5" required="false" text="How do you feel about the following?" type="matrix">
+			<columns>
+				<c name="Herring"/>
+				<c name="Holy Hand Grenades"/>
+				<c name="Spam"/>
+				<c name="Lumberjacks"/>
+			</columns>
+			<options>
+				<a display="Love 'em!" value="1"/>
+				<a display="Indifferent" value="2"/>
+				<a display="Who Cares?" value="3"/>
+			</options>
+		</q>
+		<q id="4B24DDBD3FFAF2B20B3676C968439527" name="formID" type="hidden" value="12345"/>
+	</qa>
+</survey>

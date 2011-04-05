@@ -1,0 +1,28 @@
+[default]
+#The system will look for a path using expandpath("/"&datastoremap) when using the variable below
+datastoremap=./data
+
+#Prettyprint is responsible for showing the name of the survey. Since this is only available
+#in the XML file, each XML file must be read/parsed to retrieve it. Setting prettyprint to
+#false will speed up processing, but will use file names instead of user-supplied survey names. 
+prettyprint=true
+
+#Require authentication to access survey manager tool
+#Code your own authentication logic in the authenticate() function found in Application.cfc
+auth=false
+
+#The dot notation path to the location where the CFC components (survey.cfc) reside.
+#This is necessary for createObject() use in Application.cfc.
+com=
+
+#The DSN of the DB used to store results.
+dsn={@DSN}
+
+#CFaaS URL - This is not used in the demo
+cfaasurl=http://www.resumesaver.com/CFIDE/services/
+
+[smtp]
+#Default Mail Server
+server={@SMTPSERVER}
+username={@SMTPUSER}
+password={@SMTPPWD}
