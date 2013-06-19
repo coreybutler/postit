@@ -1,10 +1,15 @@
-Description:
+Follow the author on [G+](https://plus.google.com/u/1/111169756342687497578?rel=author)
+or [Twitter (@goldglovecb)](http://twitter.com/goldglovecb).
+
+### Description
 PostIt! is a visual survey builder built on ColdFusion and Ext JS. Use it to create forms, save them as XML templates, &amp; 
 incorporate them into your web applications.
 
-License: Mozilla Public License
+# License
 
-Features
+Mozilla Public License
+
+# Features
 
 * Drag'n'Drop Interface
 * Numerous Question Types
@@ -20,7 +25,7 @@ Features
 **Not available in all versions.
 
 
-USING POSTIT!
+# USING POSTIT!
 
 PostIt! is commonly used by non-technical users to create surveys and questionnaires. However; displaying these forms is up to the developer. Surveys are stored as XML files, allowing developers to display the form in any way they want. That means surveys generated with PostIt could be used with PHP, Java, AJAX, Flex, or any other language capable of reading XML.
 
